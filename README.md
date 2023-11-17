@@ -55,10 +55,12 @@ The project follows a simple structure:
    cd frontend
 
 2. Install dependencies
-  npm install
+ npm install
+
 
 3.Run the development server:
-  npm start
+ npm start
+
 
 Open your browser and navigate to http://localhost:3000.
 
