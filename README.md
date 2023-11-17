@@ -1,7 +1,12 @@
 
 # User Management Dashboard - Frontend
 
+## OUTPUT
+
+![Screenshot (300)](https://github.com/Satyam-Kumar-1/User_Management_ReactcJs/assets/85271656/4b1aa717-7ce1-489b-af22-10e52f0adcd3)
+
 This is the frontend repository for the User Management Dashboard, built using React.js and Tailwind CSS.
+
 
 ## Tech Stack
 
