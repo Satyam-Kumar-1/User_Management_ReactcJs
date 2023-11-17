@@ -61,7 +61,7 @@ The project follows a simple structure:
 
 3. Run the development server:
 
-  npm start
+    npm start
 
 
 Open your browser and navigate to http://localhost:3000.
