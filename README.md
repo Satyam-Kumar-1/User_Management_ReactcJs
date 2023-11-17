@@ -54,12 +54,14 @@ The project follows a simple structure:
    git clone <repository_url>
    cd frontend
 
-2. Install dependencies
- npm install
+2. install dependencies:
+
+   npm install
 
 
-3.Run the development server:
- npm start
+3. Run the development server:
+
+  npm start
 
 
 Open your browser and navigate to http://localhost:3000.
