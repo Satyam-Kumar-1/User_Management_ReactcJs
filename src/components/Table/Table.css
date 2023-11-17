@@ -1,0 +1,82 @@
+.MuiTableRow-root > * {
+  padding: 10px;
+}
+
+.MuiTableRow-root.MuiTableRow-head > * {
+  font-weight: bold !important;
+}
+
+.Table td,
+th {
+  border: none !important;
+}
+
+.Table:first-child {
+  border-radius: 0.7rem !important;
+}
+.status {
+  padding: 8px;
+  border-radius: 9px;
+}
+
+.Details {
+  color: #00b5ff !important;
+}
+
+@media screen and (max-width: 1200px) {
+  .Table {
+    width: 170%;
+    margin-top: 2rem;
+  }
+}
+
+
+@media screen and (max-width: 768px) {
+  .Table{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 23rem;
+  }
+}
+
+/* Add these styles to your existing Table.css file or create a new one */
+
+.Table {
+  text-align: center;
+  min-height: 100vh;
+}
+
+.flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+/* Style for the Search input */
+.MuiTextField-root {
+  margin-right: 10px;
+}
+
+/* Style for the SearchIcon */
+.MuiSvgIcon-root {
+  cursor: pointer;
+  font-size: 1.5em; /* Adjust the size as needed */
+  margin-top: 3px; /* Adjust the vertical alignment */
+}
+
+/* Additional styling for the User table if needed */
+.MuiTableCell-root {
+  font-weight: bold; /* Example: Set font weight to bold for table cells */
+}
+
+/* Additional styling for the Generate Report button if needed */
+.MuiButton-root {
+  background-color: #4caf50; /* Example: Set background color for the button */
+  color: #fff; /* Example: Set text color for the button */
+}
+.custom-search-box {
+  width: 500px; /* Adjust the width as needed */
+}

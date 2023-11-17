@@ -1,0 +1,41 @@
+/* UserDetailsModal.css */
+
+
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 7px;
+    background-color: #2196f3 !important; /* Example background color */
+    color: #fff !important; /* Example text color */
+  }
+  
+  .close-icon {
+    cursor: pointer;
+    color: #fff !important;
+    transition: color 0.3s ease-in-out;
+  }
+
+  .close-icon:hover {
+    color: #ff4081 !important; /* Example color on hover */
+  }
+  
+
+  .user-details-table {
+    width: 100%;
+  }
+  
+  .user-details-table td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .user-details-table td:first-child {
+    font-weight: bold;
+  }
+  
+  .close-button:hover {
+    background-color: #ff4081 !important; /* Example color on hover */
+  }
+  
